@@ -230,7 +230,7 @@ export default {
     msg: String
   },
   mounted() {
-   axios.get('dev.kassir.kz/api/users ', {
+   axios.get('dev.kassir.kz/api/users/:id ', { /* Может быть так указать в express так параметры указывают в endpoints */
      headers: {
        authorization: 'Bearer 1|3iL54oDS99Uc9dlZiMXIHixUoWgs0G7jIgV9N1Gw'
      }
